@@ -1,0 +1,113 @@
+.fundo{
+    width: 100%;
+    height: 50%;
+}
+
+.imagem{
+    width: 100%;
+    height: 450px;
+    background-image: url(../../imagens/fint.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    }
+
+.moca{
+    width: 30%;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.foto{
+    margin-top: -50px;
+    width: 600px;
+    height: 450px;
+}
+
+.text{
+    display: flex;
+    width: 35%;
+    height: 200px;
+    margin-top: 150px;
+}
+
+.text h1{
+    font-size: 50px;
+    color: #FFF;
+    text-shadow: 3px 3px 3px #C29C55;
+}
+
+.forms{
+    margin-top: 85px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.382);
+    width: 330px;
+    height: 300px;
+    float: right;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+}
+
+.forms h3{
+    color: #FFF;
+    font-size: 22px;
+    margin-bottom: 80px;
+    text-shadow: 2px 2px black;
+}
+
+.nome{
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.nome p{
+    color: #C29C55;
+    text-shadow: 3px 3px 2px #000000;
+}
+
+.bto{
+    background-color: #C29C55;
+    display: flex;
+    justify-content: space-between;
+    border: 0px;
+    align-items: center;
+    color: #FFF;
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+.campo{
+    background-color: #c29c5500;
+    width: 100%;
+    height: 30px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+
+@media (max-width:1212px){
+    .moca{
+       display: none;
+    }
+
+    .text{
+        display: flex;
+        width: 35%;
+        height: 200px;
+        margin-top: 100px;
+    }
+    
+    .text h1{
+        font-size: 30px;
+        color: #FFF;
+        text-align: justify;
+    }
+
+    .text{display: none;}
+}
+
